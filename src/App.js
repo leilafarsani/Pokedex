@@ -5,7 +5,7 @@ import CaughtPokemon from "./CaughtPokemon";
 
 const abilities = ["Anticipation", "Adaptability", "Run-Away"];
 const date = new Date().toLocaleDateString();
-const App = ()=> {
+const App = () => {
   return (
     <div className="App">
       <Logo appName="Pokedex" />
